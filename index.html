@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belgravia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Disabled</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start header -->
+    <header>
+      <h1 class="hello" data-aos="fade-up">Welcome to Belgravia Restaurant</h1>
+    </header>
+    <!-- end header -->
+    <!-- start about -->
+    <section class="about bg-light py-md-5 py-3">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md">
+            <img
+              class="rounded"
+              data-aos="fade-right"
+              src="/images/header.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md">
+            <h2 data-aos="fade-up">About Us</h2>
+            <p data-aos="fade-up">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              voluptatem quos accusantium officia molestiae ut odit, delectus
+              enim, dicta natus magnam corporis consequatur fugit harum ducimus
+              maxime officiis quae aliquam. Explicabo, necessitatibus unde! Eum
+              enim maiores labore odit quae facere quasi, rem consequatur. Unde
+              minima doloribus suscipit, perspiciatis dolorum amet iusto nostrum
+              nemo et quasi illo doloremque voluptas mollitia quae? Soluta,
+              velit et? Tempora suscipit facere, minima, quasi labore voluptates
+              fugiat at corrupti vel harum adipisci? Veniam voluptates vitae et
+              hic. Sequi atque iste tempore, est perferendis quia ipsum aliquid!
+              Iure nostrum ipsum voluptates nobis voluptate non ullam
+              laudantium, sunt facilis ea rem qui sapiente? Cumque assumenda
+              natus dolor amet illo, hic recusandae excepturi asperiores
+              maiores, facilis accusamus consequuntur optio!
+            </p>
+            <a
+              href="#"
+              data-aos="fade-up"
+              class="btn btn-outline-secondary btn-lg"
+              >Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- start Reservation -->
+    <section class="reservation py-md-5 py-3">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md">
+            <h2 data-aos="fade-up">Reservation</h2>
+            <p data-aos="fade-up">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              voluptatem quos accusantium officia molestiae ut odit, delectus
+              enim, dicta natus magnam corporis consequatur fugit harum ducimus
+              maxime officiis quae aliquam. Explicabo, necessitatibus unde! Eum
+              enim maiores labore odit quae facere quasi, rem consequatur. Unde
+              minima doloribus suscipit, perspiciatis dolorum amet iusto nostrum
+              nemo et quasi illo doloremque voluptas mollitia quae?
+            </p>
+            <a
+              href="#"
+              data-aos="fade-up"
+              class="btn btn-outline-secondary btn-lg"
+              >Book a table</a
+            >
+          </div>
+          <div class="col-md">
+            <img
+              class="rounded"
+              data-aos="fade-left"
+              src="/images/rest.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Reservation -->
+    <!-- start dishes slider -->
+    <section class="dishes bg-light py-5">
+      <div class="container text-center overflow-hidden">
+        <h2>Discover our Dishes</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          commodi vitae nihil est. Quia, harum cupiditate velit error repellat
+          suscipit enim maiores nam facilis totam molestiae ipsum, architecto
+          quisquam fugiat.
+        </p>
+      <div class="swiper mySwiper mb-4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/images/d1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d2.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d3.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d4.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d5.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d6.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d7.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d8.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/d9.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <a
+      href="#"
+      data-aos="fade-up"
+      class="btn btn-outline-secondary btn-lg"
+      >view our menu</a
+    >
+    </div>
+    </section>
+    <!-- end dishes slider -->
+    <!-- start footer -->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright: Belgravia
+        <p class="fs-6">Developed by <a class="text-light" href="https://orizon.qa/">Orizon Qatar</a></p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- end footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>

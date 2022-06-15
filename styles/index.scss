@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 0;
+  transition: 0.5s;
+  z-index: 5;
+  a {
+    color: #fff !important;
+  }
+  .nav-link {
+    transition: 0.3s;
+    @media (max-width: 991px) {
+      width: fit-content;
+    }
+    &:hover {
+      transform: scale(1.1);
+      @media (max-width: 991px) {
+        transform: none;
+        box-shadow: 0px 2px 0px 0px #fff;
+      }
+    }
+  }
+  .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+}
+.nav_not_top {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  h1 {
+    font-weight: bolder;
+  }
+}
+.about,
+.reservation {
+  img {
+    width: 100%;
+  }
+}
+.about {
+  img {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+.reservation {
+  .row {
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  img{
+    height: 100%;
+  }
+
+  &:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  &:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  &:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  &:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+
+  &:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+
+  &:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+
+  &:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+
+  &:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+
+  &:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+
+  &:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+}
